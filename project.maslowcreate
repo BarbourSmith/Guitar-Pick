@@ -189,7 +189,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 0.4
+                            "ioValue": 0.5
                         }
                     ]
                 },
@@ -279,7 +279,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 0.8
+                            "ioValue": 0.9
                         }
                     ]
                 },
@@ -499,23 +499,10 @@
             ]
         },
         {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.5886243386243386,
-            "y": 0.3685897435897436,
-            "uniqueID": 357945,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/902122/371384ExtractTag"
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Pick",
-            "x": 0.12698412698412698,
-            "y": 0.6923076923076923,
+            "x": 0.125,
+            "y": 0.6762820512820513,
             "uniqueID": 699715,
             "ioValues": [],
             "topLevel": false,
@@ -785,7 +772,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -14.5
+                            "ioValue": -15.5
                         },
                         {
                             "name": "zDist",
@@ -1185,6 +1172,19 @@
             "fileTypeVersion": 1,
             "simplify": false,
             "unitsIndex": 0
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.5886243386243386,
+            "y": 0.3685897435897436,
+            "uniqueID": 357945,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/902122/371384ExtractTag"
+                }
+            ]
         },
         {
             "atomType": "Output",
