@@ -501,8 +501,8 @@
         {
             "atomType": "Molecule",
             "name": "Pick",
-            "x": 0.12764550264550265,
-            "y": 0.657051282051282,
+            "x": 0.1283068783068783,
+            "y": 0.6474358974358975,
             "uniqueID": 699715,
             "ioValues": [],
             "topLevel": false,
@@ -646,23 +646,6 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.6759259259259259,
-                    "y": 0.1858974358974359,
-                    "uniqueID": 865183,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/902122/699715/178903ShrinkWrap"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": -0.4
-                        }
-                    ]
-                },
-                {
                     "atomType": "Group",
                     "name": "Group",
                     "x": 0.3637566137566138,
@@ -676,6 +659,23 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.6792328042328042,
+                    "y": 0.20192307692307693,
+                    "uniqueID": 865183,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/902122/699715/178903ShrinkWrap"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": -0.2
                         }
                     ]
                 },
@@ -1532,8 +1532,8 @@
         {
             "atomType": "Stl",
             "name": "Stl",
-            "x": 0.5886243386243386,
-            "y": 0.3685897435897436,
+            "x": 0.5873015873015873,
+            "y": 0.3557692307692307,
             "uniqueID": 357945,
             "ioValues": [
                 {
