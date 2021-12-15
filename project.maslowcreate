@@ -501,8 +501,8 @@
         {
             "atomType": "Molecule",
             "name": "Pick",
-            "x": 0.1283068783068783,
-            "y": 0.6474358974358975,
+            "x": 0.12566137566137567,
+            "y": 0.6506410256410257,
             "uniqueID": 699715,
             "ioValues": [],
             "topLevel": false,
@@ -780,15 +780,53 @@
                     "topLevel": false,
                     "allAtoms": [
                         {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.15674603174603174,
+                            "y": 0.23076923076923078,
+                            "uniqueID": 602400,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 100
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.2996031746031746,
-                            "y": 0.21153846153846154,
+                            "x": 0.31216931216931215,
+                            "y": 0.25961538461538464,
                             "uniqueID": 296002,
                             "ioValues": [
                                 {
                                     "name": "geometry",
                                     "ioValue": "atoms/902122/699715/432389/602400Circle"
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": -37
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.24074074074074073,
+                            "y": 0.42948717948717946,
+                            "uniqueID": 999145,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": "atoms/902122/699715/432389/900829Circle"
                                 },
                                 {
                                     "name": "xDist",
@@ -807,13 +845,30 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.19444444444444442,
-                            "y": 0.34294871794871795,
-                            "uniqueID": 602400,
+                            "x": 0.11309523809523808,
+                            "y": 0.516025641025641,
+                            "uniqueID": 900829,
                             "ioValues": [
                                 {
                                     "name": "diameter",
                                     "ioValue": 154
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Group",
+                            "name": "Group",
+                            "x": 0.34457671957671954,
+                            "y": 0.47756410256410253,
+                            "uniqueID": 980303,
+                            "ioValues": [
+                                {
+                                    "name": "3D shape 1",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 2",
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -1060,6 +1115,13 @@
                     "allConnectors": [
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 602400,
+                            "ap2ID": 296002
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry1",
                             "ap2Primary": false,
                             "ap1ID": 296002,
@@ -1067,10 +1129,24 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "3D shape 1",
+                            "ap2Primary": false,
+                            "ap1ID": 296002,
+                            "ap2ID": 980303
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 2",
+                            "ap2Primary": false,
+                            "ap1ID": 999145,
+                            "ap2ID": 980303
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
-                            "ap1ID": 602400,
-                            "ap2ID": 296002
+                            "ap1ID": 900829,
+                            "ap2ID": 999145
                         },
                         {
                             "ap1Name": "geometry",
@@ -1611,5 +1687,5 @@
     "simplify": false,
     "unitsIndex": 0,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.051"
+    "circleSegmentSize": "0.001"
 }
